@@ -64,12 +64,7 @@ public final class FileUtil {
         if (files != null) {
             String[] paths = new String[files.size()];
             for (int i = 0; i < files.size(); i++) {
-                try {
-                    paths[i] = files.get(i).getCanonicalPath(); // canonical path is important here because we want to compare the path with the media store entry later
-                } catch (IOException e) {
-                    e.printStackTrace();
-                    paths[i] = files.get(i).getPath();
-                }
+                paths[i] = safeGetCanonicalPath(files.get(i));
             }
             return paths;
         }
@@ -169,5 +164,14 @@ public final class FileUtil {
             }
         }
         return false;
+    }
+
+    public static String safeGetCanonicalPath(File file) {
+        try {
+            return file.getCanonicalPath();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return file.getAbsolutePath();
+        }
     }
 }

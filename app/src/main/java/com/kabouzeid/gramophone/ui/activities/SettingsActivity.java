@@ -23,6 +23,8 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.kabouzeid.gramophone.helper.MusicPlayerRemote;
+import com.kabouzeid.gramophone.preferences.BlacklistPreference;
+import com.kabouzeid.gramophone.preferences.BlacklistPreferenceDialog;
 import com.kabouzeid.gramophone.preferences.NowPlayingScreenPreference;
 import com.kabouzeid.gramophone.preferences.NowPlayingScreenPreferenceDialog;
 import com.kabouzeid.gramophone.service.MusicService;
@@ -48,6 +50,7 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
         addPreferencesFromResource(R.xml.pref_lockscreen);
         addPreferencesFromResource(R.xml.pref_audio);
         addPreferencesFromResource(R.xml.pref_playlists);
+        addPreferencesFromResource(R.xml.pref_blacklist);
 
         Preference equalizer = findPreference("equalizer");
         if (!hasEqualizer()) {

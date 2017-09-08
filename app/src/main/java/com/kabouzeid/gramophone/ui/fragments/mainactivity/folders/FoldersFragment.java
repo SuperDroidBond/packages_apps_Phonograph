@@ -448,7 +448,9 @@ public class FoldersFragment extends AbsMainActivityFragment implements MainActi
     FileFilter audioFileFilter = new FileFilter() {
         @Override
         public boolean accept(File file) {
-            return !file.isHidden() && (file.isDirectory() || FileUtil.fileIsAudioFile(file, MimeTypeMap.getSingleton()));
+            return !file.isHidden() && (file.isDirectory() ||
+                    FileUtil.fileIsMimeType(file, "audio/*", MimeTypeMap.getSingleton()) ||
+                    FileUtil.fileIsMimeType(file, "application/ogg", MimeTypeMap.getSingleton()));
         }
     };
 
@@ -651,12 +653,7 @@ public class FoldersFragment extends AbsMainActivityFragment implements MainActi
                     paths = new String[files.size()];
                     for (int i = 0; i < files.size(); i++) {
                         File f = files.get(i);
-                        try {
-                            paths[i] = f.getCanonicalPath(); // canonical path is important here because we want to compare the path with the media store entry later
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                            paths[i] = f.getPath();
-                        }
+                        paths[i] = FileUtil.safeGetCanonicalPath(f);
 
                         if (isCancelled() || checkCallbackReference() == null) return paths;
                     }

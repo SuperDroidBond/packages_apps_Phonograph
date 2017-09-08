@@ -70,6 +70,8 @@ public final class PreferenceUtil {
 
     public static final String START_DIRECTORY = "start_directory";
 
+    public static final String INITIALIZED_BLACKLIST = "initialized_blacklist";
+
     private static PreferenceUtil sInstance;
 
     private final SharedPreferences mPreferences;
@@ -407,7 +409,17 @@ public final class PreferenceUtil {
 
     public void setStartDirectory(File file) {
         final SharedPreferences.Editor editor = mPreferences.edit();
-        editor.putString(START_DIRECTORY, file.getPath());
+        editor.putString(START_DIRECTORY, FileUtil.safeGetCanonicalPath(file));
         editor.apply();
+    }
+
+    public void setInitializedBlacklist() {
+        final SharedPreferences.Editor editor = mPreferences.edit();
+        editor.putBoolean(INITIALIZED_BLACKLIST, true);
+        editor.apply();
+    }
+
+    public final boolean initializedBlacklist() {
+        return mPreferences.getBoolean(INITIALIZED_BLACKLIST, false);
     }
 }
