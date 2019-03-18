@@ -49,6 +49,8 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
 
     private static String ALEKSANDAR_TESIC_GOOGLE_PLUS = "https://google.com/+aleksandartešić";
 
+    private static String OMNI_PHONOGRAPH_GITHUB = "https://github.com/omnirom/android_packages_apps_Phonograph";
+
     Toolbar toolbar;
     TextView appVersion;
     LinearLayout changelog;
@@ -63,6 +65,7 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
     LinearLayout joinGooglePlusCommunity;
     LinearLayout translate;
     LinearLayout donate;
+    LinearLayout omniPhonoGit;
     AppCompatButton aidanFollestadGooglePlus;
     AppCompatButton aidanFollestadGitHub;
     AppCompatButton michaelCookGooglePlus;
@@ -95,6 +98,7 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
         michaelCookWebsite = (AppCompatButton) findViewById(R.id.michael_cook_website);
         maartenCorpelGooglePlus = (AppCompatButton) findViewById(R.id.maarten_corpel_google_plus);
         aleksandarTesicGooglePlus = (AppCompatButton) findViewById(R.id.aleksandar_tesic_google_plus);
+        omniPhonoGit = (LinearLayout) findViewById(R.id.visit_source);
 
         setStatusbarColorAuto();
         setNavigationbarColorAuto();
@@ -139,6 +143,7 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
         michaelCookWebsite.setOnClickListener(this);
         maartenCorpelGooglePlus.setOnClickListener(this);
         aleksandarTesicGooglePlus.setOnClickListener(this);
+        omniPhonoGit.setOnClickListener(this);
     }
 
     @Override
@@ -197,6 +202,8 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
             openUrl(MAARTEN_CORPEL_GOOGLE_PLUS);
         } else if (v == aleksandarTesicGooglePlus) {
             openUrl(ALEKSANDAR_TESIC_GOOGLE_PLUS);
+        } else if (v == omniPhonoGit) {
+            openUrl(OMNI_PHONOGRAPH_GITHUB);
         }
     }
 

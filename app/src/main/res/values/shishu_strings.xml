@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music</string>
+    <string name="original_base_title">Based on the fork by</string>
+    <string name="original_author">Original author</string>
+    <string name="omnirom_name" translatable="false">OmniROM</string>
+    <string name="original_base">They made it theme-friendly</string>
+    <string name="original_github">Check the original source</string>
+    <string name="write_tag_error_toast">Failed to write some tags</string>
+</resources>
