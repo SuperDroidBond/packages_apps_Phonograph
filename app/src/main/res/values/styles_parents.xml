@@ -23,6 +23,10 @@
         <item name="popupMenuStyle">@style/PopupMenuStyleCompat</item>
         <item name="android:popupMenuStyle">@style/PopupMenuStyleCompat</item>
 
+        <!-- Transparencies -->
+        <item name="android:windowShowWallpaper">@bool/theme_show_wallpaper</item>
+        <item name="android:windowIsTranslucent">@bool/theme_translucent</item>
+
         <!-- necessary to find the overflow button later in the layout-->
         <item name="android:actionOverflowButtonStyle">@style/Widget.ActionButton.Overflow</item>
 
