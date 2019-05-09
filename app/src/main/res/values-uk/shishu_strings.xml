@@ -3,6 +3,8 @@
 <resources>
     <string name="app_name">Музика</string>
     <string name="original_base_title">На основі</string>
+    <string name="original_author">Автор</string>
     <string name="original_base">Вони зробили цю дружню тему</string>
     <string name="original_github">Перевірте оригінальне джерело</string>
+    <string name="write_tag_error_toast">Не вдалося записати деякі теги</string>
 </resources>

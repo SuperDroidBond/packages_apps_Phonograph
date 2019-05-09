@@ -5,11 +5,13 @@
     <string name="action_done">Ολοκληρώθηκε</string>
     <string name="action_search">Αναζήτηση</string>
     <string name="action_play">Αναπαραγωγή</string>
+    <string name="action_delete">Διαγραφή</string>
     <string name="light_theme_name">Φωτεινό</string>
     <string name="dark_theme_name">Σκούρο</string>
     <string name="always">Πάντα</string>
     <string name="never">Ποτέ</string>
     <string name="pref_header_lockscreen">Οθόνη κλειδώματος</string>
+    <string name="delete_action">Διαγραφή</string>
     <string name="default_str">Προεπιλογή</string>
     <string name="accent_color">Χρώμα έμφασης</string>
     <string name="action_set">Ορισμός</string>

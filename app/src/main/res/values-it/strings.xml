@@ -78,7 +78,7 @@
     <string name="deleted_x_songs">%1$d brani eliminati.</string>
     <string name="could_not_create_playlist">Impossibile creare la playlist.</string>
     <string name="delete_playlist_x"><![CDATA[Eliminare la playlist <b>%1$s</b>?]]></string>
-    <string name="clear_playlist_x"><![CDATA[Vuoi svuotare la playlist <b>%1$s</b>? L' operazione non può essere annullata!]]></string>
+    <string name="clear_playlist_x"><![CDATA[Vuoi svuotare la playlist <b>%1$s</b>? L\u2019 operazione non può essere annullata!]]></string>
     <string name="delete_x_playlists"><![CDATA[Eliminare <b>%1$d</b> playlist?]]></string>
     <string name="delete_song_x"><![CDATA[Eliminare il brano <b>%1$s</b>?]]></string>
     <string name="delete_x_songs"><![CDATA[Eliminare <b>%1$d</b> brani?]]></string>
