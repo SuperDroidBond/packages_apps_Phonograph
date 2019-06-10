@@ -13,6 +13,7 @@
     <string name="action_done">Fatto</string>
     <string name="action_skip">Salta</string>
     <string name="action_about">Informazioni</string>
+    <string name="action_show_intro">Mostra intro</string>
     <string name="action_clear_playlist">Svuota playlist</string>
     <string name="action_playing_queue">Coda di riproduzione</string>
     <string name="action_add_to_favorites">Aggiungi ai preferiti</string>
@@ -67,6 +68,9 @@
     <string name="label_playing_queue">Coda di riproduzione</string>
     <string name="save_as_playlist">Salva come playlist</string>
     <string name="no_results">Nessun risultato</string>
+    <string name="action_re_download_artist_image">Aggiorna immagine artista</string>
+    <string name="updated_artist_image">Immagine artista aggiornata.</string>
+    <string name="could_not_update_artist_image">Impossibile aggiornare l\'immagine dell\'artista\u2019.</string>
     <string name="updating">Aggiornamento…</string>
     <string name="added_title_to_playing_queue">"Un brano aggiunto alla coda di riproduzione."</string>
     <string name="added_x_titles_to_playing_queue">%1$d titoli aggiunti alla coda.</string>
@@ -75,6 +79,7 @@
     <string name="action_grid_size_land">Dimensione griglia (schermo orizzontale)</string>
     <string name="inserted_x_songs_into_playlist_x">Aggiunti %1$d brani alla playlist %2$s.</string>
     <string name="created_playlist_x">Playlist %1$s creata.</string>
+    <string name="deleted_playlist_x">Playlist %1$s eliminata.</string>
     <string name="deleted_x_songs">%1$d brani eliminati.</string>
     <string name="could_not_create_playlist">Impossibile creare la playlist.</string>
     <string name="delete_playlist_x"><![CDATA[Eliminare la playlist <b>%1$s</b>?]]></string>
@@ -134,6 +139,13 @@
     <string name="pref_title_classic_notification">Design di notifica classico</string>
     <string name="pref_title_ignore_media_store_artwork">Ignora le copertine del Media Store</string>
     <string name="pref_title_gapless_playback">Riproduzione senza intervalli</string>
+    <string name="pref_title_force_square_album_art">Copertina album quadrata</string>
+    <string name="pref_title_opaque_toolbar_now_playing">Barra strumenti opaca</string>
+    <string name="pref_title_opaque_statusbar_now_playing">Barra di stato opaca</string>
+    <string name="pref_title_larger_title_box_now_playing">Casella titolo grande</string>
+    <string name="pref_title_alternative_progress_slider_now_playing">Cursore progresso alternativo</string>
+    <string name="pref_title_playback_controller_card_now_playing">Mostra la scheda sotto i controlli di riproduzione</string>
+    <string name="pref_title_colored_playback_controls_now_playing">Controlli di riproduzione colorati</string>
     <string name="pref_title_audio_ducking">Riduci volume in caso di perdita di focus audio</string>
     <string name="pref_title_last_added_interval">Ultimo intervallo di playlist aggiunto</string>
     <string name="no_equalizer">Nessun equalizzatore trovato.</string>
@@ -167,12 +179,17 @@
     <string name="pref_summary_force_square_album_art">Le copertine dell\' album nella visualizzazione in riproduzione sono sempre quadrate.</string>
     <string name="pref_summary_opaque_toolbar_now_playing">Colora la barra degli strumenti.</string>
     <string name="pref_summary_opaque_statusbar_now_playing">Colora la barra di stato.</string>
+    <string name="pref_summary_larger_title_box_now_playing">La casella del titolo è più alta.</string>
+    <string name="pref_summary_alternative_progress_slider_now_playing">Usa una barra di avanzamento che non copre la copertina dell\'album invece del cursore di avanzamento predefinito.</string>
+    <string name="pref_summary_playback_controller_card_now_playing">Mostra una scheda sotto play/pausa, salta, riavvolgi, casuale e ripeti.</string>
     <string name="pref_summary_ignore_media_store_artwork">Può incrementare la qualità delle copertine, ma causa rallentamenti nei tempi di caricamento delle immagini. Abilita soltanto se hai problemi con copertine a bassa risoluzione.</string>
+    <string name="pref_summary_colored_playback_controls_now_playing">Colori play/pausa, casuale e ripeti, così come il cursore di avanzamento nella copertina dell\' album è il colore vibrante.</string>
     <string name="pref_summary_colored_navigation_bar">Colora la barra di navigazione del colore principale.</string>
     <string name="pref_summary_colored_app_shortcuts">Colora le scorciatoie dell\'app con il colore principale.</string>
     <string name="pref_summary_audio_ducking">Notifiche, navigazione ecc.</string>
     <string name="could_not_download_album_cover">"Impossibile scaricare una copertina adatta."</string>
     <string name="search_hint">Cercando nella tua libreria…</string>
+    <string name="rescanning_media">Ricerca multimediale…</string>
     <string name="favorites">Preferiti</string>
     <string name="last_added">Ultimo aggiunto</string>
     <string name="history">Cronologia</string>
@@ -203,6 +220,8 @@
     <string name="back">indietro</string>
     <string name="support_development">Supporta lo sviluppo</string>
     <string name="thank_you">Grazie!</string>
+    <string name="restored_previous_purchases">Acquisti precedenti ripristinati.</string>
+    <string name="play_store_illustration_by">Illustrazione del Play Store</string>
     <string name="version">Versione</string>
     <string name="application">Applicazione</string>
     <string name="author">Autore</string>
@@ -230,6 +249,7 @@
     <string name="up_next">A seguire</string>
     <string name="pref_title_now_playing_screen_appearance">Aspetto</string>
     <string name="intro_label">Presentazione</string>
+    <string name="press_back_again_to_exit_intro">Premi di nuovo indietro per saltare l\'intro.</string>
     <string name="welcome_to_phonograph">"Benvenuto in Phonograph, un music player bellissimo e leggero per Android. "</string>
     <string name="open_playing_queue_instruction">Scorri sulla scheda nella schermata di riproduzione in corso per visualizzare la coda di riproduzione completa.</string>
     <string name="rearrange_playing_queue_instruction">Riorganizza la coda di riproduzione trascinando un brano dal suo numero di traccia.</string>
