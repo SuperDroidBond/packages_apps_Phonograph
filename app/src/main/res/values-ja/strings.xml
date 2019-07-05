@@ -144,7 +144,7 @@
     <string name="pref_title_opaque_statusbar_now_playing">不透明なステータスバー</string>
     <string name="pref_title_larger_title_box_now_playing">大きなタイトルボックス</string>
     <string name="pref_title_alternative_progress_slider_now_playing">代替の進行スライダー</string>
-    <string name="pref_title_playback_controller_card_now_playing">再生コントロールの下にカードを表示する</string>
+    <string name="pref_title_playback_controller_card_now_playing">再生コントロールの下にカードを表示</string>
     <string name="pref_title_colored_playback_controls_now_playing">色付きの再生コントロール</string>
     <string name="pref_title_audio_ducking">音声フォーカス喪失時に音量を下げる</string>
     <string name="pref_title_last_added_interval">最近追加された曲に含まれる期間</string>
@@ -161,7 +161,7 @@
     <string name="primary_color">メインカラー</string>
     <string name="accent_color">アクセントカラー</string>
     <string name="primary_color_desc">ツールバーなどの色を設定する (規定ではインディゴ)</string>
-    <string name="accent_color_desc">コントロールキーやシークバーなどの色を設定する (規定ではピンク)</string>
+    <string name="accent_color_desc">コントロールキーやシークバーなどの色を設定する (既定ではピンク)</string>
     <string name="update_image">画像の更新</string>
     <string name="playlist_empty_text">空のプレイリスト</string>
     <string name="no_playlists">プレイリストなし</string>
