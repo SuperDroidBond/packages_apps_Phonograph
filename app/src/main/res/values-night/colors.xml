@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">@*android:color/accent_device_default_dark</color>
+    <color name="colorPrimary">@*android:color/primary_device_default_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_dark_device_default_dark</color>
+    <color name="md_background_color">@*android:color/background_floating_device_default_dark</color>
+    <color name="md_grey_300">@*android:color/primary_device_default_dark</color>
+    <color name="md_white_1000">@*android:color/primary_device_default_dark</color>
+
+    <color name="windowBackground">@*android:color/background_device_default_dark</color>
+    <color name="popupBackground">@*android:color/background_floating_device_default_dark</color>
+
+    <color name="textColorPrimary">#fffafafa</color>
+    <color name="textColorSecondary">#b3fafafa</color>
+    <color name="textColorTertiary">#a0fafafa</color>
+    <color name="md_divider_black">#18fafafa</color>
+</resources>

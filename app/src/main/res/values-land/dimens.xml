@@ -1,5 +1,7 @@
 <resources>
     <dimen name="title_view_height">56dp</dimen>
 
+    <dimen name="status_bar_padding">@*android:dimen/status_bar_height_landscape</dimen>
+
     <dimen name="header_image_height">180dp</dimen>
 </resources>

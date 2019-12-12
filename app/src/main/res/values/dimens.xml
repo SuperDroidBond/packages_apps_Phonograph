@@ -13,7 +13,7 @@
     <dimen name="fab_media_controller_container_height">120dp</dimen>
     <dimen name="media_controller_container_height">104dp</dimen>
 
-    <dimen name="status_bar_padding">24dp</dimen>
+    <dimen name="status_bar_padding">@*android:dimen/status_bar_height_portrait</dimen>
 
     <dimen name="tab_height">48dp</dimen>
 

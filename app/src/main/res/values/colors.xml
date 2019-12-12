@@ -2,14 +2,14 @@
 <resources>
     <color name="twenty_percent_black_overlay">#34000000</color>
     <color name="colorAccent">@*android:color/accent_device_default_light</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">@*android:color/primary_device_default_light</color>
+    <color name="colorPrimaryDark">@*android:color/primary_dark_device_default_light</color>
 
     <color name="app_shortcut_default_foreground">#607d8b</color>
     <color name="app_shortcut_default_background">#f5f5f5</color>
 
-    <color name="windowBackground">#ffffffff</color>
-    <color name="popupBackground">#ffffffff</color>
+    <color name="windowBackground">@*android:color/background_device_default_light</color>
+    <color name="popupBackground">@*android:color/background_floating_device_default_light</color>
 
     <color name="textColorPrimary">#ff252525</color>
     <color name="textColorSecondary">#b3252525</color>
@@ -17,8 +17,8 @@
 
     <color name="ripple_color">#a0808080</color>
 
-    <color name="ate_primary_text_light">@color/textColorPrimary</color>
-    <color name="ate_primary_text_dark">@android:color/white</color>
+    <color name="ate_primary_text_light">@*android:color/accent_device_default_light</color>
+    <color name="ate_primary_text_dark">@*android:color/accent_device_default_light</color>
     <color name="ate_secondary_text_light">@color/textColorSecondary</color>
     <color name="md_divider_black">#18000000</color>
 </resources>
